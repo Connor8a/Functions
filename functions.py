@@ -12,7 +12,7 @@ while (True):
     except:
         print("invalid input")
     else:
-        if user_unit != "inches" or "milimeters":
+        if user_unit != "inches" or user_unit != "milimeters":
             print("invalid input")
         else:
             break
@@ -32,7 +32,8 @@ if user_unit == "milimeters":
 
 
 
-print(user_unit)
+
+print(conv_number, conv_unit)
 
 # Get the unit 
 
